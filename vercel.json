@@ -10,5 +10,11 @@
       "source": "/(.*)",
       "destination": "api/server.js"
     }
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": false
+  },
+  "env": {
+    "VERCEL_GITHUB_DISABLED": true
+  }
 }
